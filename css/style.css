@@ -1,0 +1,21 @@
+
+
+/*main title*/
+.title {
+    text-align: center;
+}
+
+
+/*buttons*/
+.btn-container {
+    text-align: center;
+}
+
+
+/*image */
+img.photo {
+    width: 30%;
+}
+.section-center {
+    text-align: center;
+}
