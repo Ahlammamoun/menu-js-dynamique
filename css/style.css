@@ -58,7 +58,7 @@ header {
 button.filter-btn {
     width: 25%;
     background-color: rgb(219, 166, 66);
-    font-size: large;
+    font-size: inherit;
     font-weight: bold;
 }
 
