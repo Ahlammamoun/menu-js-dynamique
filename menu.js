@@ -1,47 +1,50 @@
 const menu = [
+   
+
     {
         id: 1,
-        title: "chlada",
-        category: "déjeuner",
-        price: "45.99",
-        img: "https://img.over-blog.com/500x350/4/33/47/49/photos-diverses/repas-marocain.jpg",
-        desc: `lorlkjvjklreflkjlklkazjkfcjkhkjdvjkljzlknrlvljrenlkvkre`,
-    },
-    {
-        id: 2,
-        title: "robs",
-        category: "déjeuner",
-        price: "11.99",
-        img: "https://assets.afcdn.com/recipe/20200323/109208_w1024h1024c1cx2880cy1920.webp",
-        desc: `lorlkjvjklreflkjlklkazjkfcjkhkjdvjkljzlknrlvljrenlkvkre`,
-    },
-
-    {
-        id: 3,
-        title: "mechoui",
-        category: "diner",
-        price: "17.99",
-        img: "https://m1.zeste.ca/serdy-m-dia-inc/image/upload/f_auto/fl_lossy/q_auto:eco/x_0,y_1404,w_3456,h_1944,c_crop/w_1200,h_630,c_fill/v1543527730/foodlavie/prod/recettes/mechoui-d-agneau-aux-epices-berberes-ca03057c",
-        desc: `lorlkjvjklreflkjlklkazjkfcjkhkjdvjkljzlknrlvljrenlkvkre`,
-    },
-
-    {
-        id: 4,
         title: "crèpes mille trous",
         category: "petit-déjeuner",
         price: "25.99",
         img: "https://www.lameridionale.fr/sites/default/files/media/image/2022-10/Baghrir.jpg",
         desc: `lorlkjvjklreflkjlklkazjkfcjkhkjdvjkljzlknrlvljrenlkvkre`,
     },
-
     {
-        id: 5,
+        id: 2,
+        title: "mechoui",
+        category: "diner",
+        price: "17.99",
+        img: "https://m1.zeste.ca/serdy-m-dia-inc/image/upload/f_auto/fl_lossy/q_auto:eco/x_0,y_1404,w_3456,h_1944,c_crop/w_1200,h_630,c_fill/v1543527730/foodlavie/prod/recettes/mechoui-d-agneau-aux-epices-berberes-ca03057c",
+        desc: `lorlkjvjklreflkjlklkazjkfcjkhkjdvjkljzlknrlvljrenlkvkre`,
+    },
+   
+    {
+        id: 3,
+        title: "robs",
+        category: "déjeuner",
+        price: "11.99",
+        img: "https://assets.afcdn.com/recipe/20200323/109208_w1024h1024c1cx2880cy1920.webp",
+        desc: `lorlkjvjklreflkjlklkazjkfcjkhkjdvjkljzlknrlvljrenlkvkre`,
+    },
+     {
+        id: 4,
         title: "miloui",
         category: "petit-déjeuner",
         price: "55.99",
         img: "https://media.jemepropose.com/offers_pictures/member_584173/offer_611093/offer_611093_picture_673879.png",
         desc: `lorlkjvjklreflkjlklkazjkfcjkhkjdvjkljzlknrlvljrenlkvkre`,
     },
+  
+ 
+    {
+        id: 5,
+        title: "matecha",
+        category: "déjeuner",
+        price: "17.99",
+        img: "https://images.radio-canada.ca/v1/alimentation/recette/16x9/salade-marocaine.jpg",
+        desc: `lorlkjvjklreflkjlklkazjkfcjkhkjdvjkljzlknrlvljrenlkvkre`,
+    },
+  
 
     {
         id: 6,
@@ -69,6 +72,16 @@ const menu = [
         desc: `lorlkjvjklreflkjlklkazjkfcjkhkjdvjkljzlknrlvljrenlkvkre`,
     },
 
+    {
+        id: 9,
+        title: "chlada",
+        category: "déjeuner",
+        price: "45.99",
+        img: "https://img.over-blog.com/500x350/4/33/47/49/photos-diverses/repas-marocain.jpg",
+        desc: `lorlkjvjklreflkjlklkazjkfcjkhkjdvjkljzlknrlvljrenlkvkre`,
+    },
+   
+
 ];
 
 
@@ -94,8 +107,7 @@ function displayMenuItems(menuItems) {
     <h4>${item.title}</h4>
     <h4 class="price">${item.price}</h4>
     </header>
-    <p ${item.desc}
-    </p>
+    <p ${item.desc}</p>
 </div>
 </article>`;
 

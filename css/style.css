@@ -1,5 +1,5 @@
 body {
-  
+
     border: solid 15px rgb(219, 166, 66);
     background-color: black;
 }
@@ -8,7 +8,7 @@ nav {
 
     margin: 0;
     padding: 0;
-  
+
 
 }
 
@@ -17,11 +17,20 @@ ul {
     justify-content: center;
     list-style-type: none;
 }
-
+p.text-contact {
+    color:rgb(219, 166, 66) ;
+    text-align: center;
+}
 ul.contact {
     color: rgb(219, 166, 66);
     gap: 95px;
     list-style-type: none;
+}
+
+a {
+    color: rgb(219, 166, 66);
+    gap: 95px;
+    text-decoration-line: none;
 }
 
 img {
