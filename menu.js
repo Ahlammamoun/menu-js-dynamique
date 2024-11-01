@@ -4,7 +4,7 @@ const menu = [
     {
         id: 1,
         title: "crèpes mille trous",
-        category: "petit-déjeuner",
+        category: "petit-dej",
         price: "25.99",
         img: "https://www.lameridionale.fr/sites/default/files/media/image/2022-10/Baghrir.jpg",
         desc: `lorlkjvjklreflkjlklkazjkfcjkhkjdvjkljzlknrlvljrenlkvkre`,
